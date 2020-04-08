@@ -17,4 +17,5 @@ RUN apt-get --quiet update --yes &&                                             
 	echo y | /opt/android-sdk-linux/tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "build-tools;${ANDROID_BUILD_TOOLS}" >/dev/null       &&                    \
 	echo y | /opt/android-sdk-linux/tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "ndk-bundle" >/dev/null                               &&                    \
 	echo y | /opt/android-sdk-linux/tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "cmake;${CMAKE}" >/dev/null                           &&                    \
-	true
+  	yes | android-sdk-linux/tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} --licenses
+
