@@ -13,7 +13,7 @@ Use with gitlab
 
 ### .gitlab-ci.yml ###
 
-    image: matteopic/android:30.0.2
+    image: matteopic/android:31.0.0
 
     before_script:
         - chmod +x ./gradlew
