@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk
 
-ENV  ANDROID_SDK_TOOLS   6609375
-ENV  ANDROID_BUILD_TOOLS 30.0.2
+ENV  ANDROID_SDK_TOOLS   7583922
+ENV  ANDROID_BUILD_TOOLS 30.0.3
 ENV  ANDROID_COMPILE_SDK 30
 ENV  ANDROID_SDK_ROOT    /opt/android-sdk-linux/
 ENV  PATH                $PATH:/opt/android-sdk-linux/platform-tools/
