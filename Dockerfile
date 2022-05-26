@@ -1,6 +1,8 @@
-FROM openjdk:8-jdk
+FROM openjdk:11-jdk
 
-ENV  ANDROID_SDK_TOOLS   7583922
+# https://developer.android.com/studio/index.html#command-tools
+ENV  ANDROID_SDK_TOOLS   8512546
+
 ENV  ANDROID_BUILD_TOOLS 31.0.0
 ENV  ANDROID_COMPILE_SDK 31
 ENV  ANDROID_SDK_ROOT    /opt/android-sdk-linux/
